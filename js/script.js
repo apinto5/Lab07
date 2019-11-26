@@ -1,8 +1,8 @@
 function init(){
 
-document.getElementById("entrybutton").addEventListener("click", myFunction);
+document.getElementById("entrybutton").addEventListener("click", alertFunction);
 
-function myFunction(){	
+function alertFunction(){	
     var userInput = document.getElementById('entryinput').value
     document.getElementById('textoutput').innerHTML = userInput;
     alert('Alexander Pinto: ' + userInput);
