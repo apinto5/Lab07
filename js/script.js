@@ -6,7 +6,7 @@ function buttonFunction(){
 	
     var userInput = document.getElementById('entryinput').value
     document.getElementById('textoutput').innerHTML = userInput;
-alert('Alexander: ' + input);
+    alert('Alexander: ' + userInput);
 }};
 
 window.addEventListener('load', init);
