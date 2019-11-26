@@ -1,9 +1,8 @@
 function init(){
 
-document.getElementById("entrybutton").addEventListener("click", buttonFunction);
+document.getElementById("entrybutton").addEventListener("click", myFunction);
 
-function buttonFunction(){
-	
+function myFunction(){	
     var userInput = document.getElementById('entryinput').value
     document.getElementById('textoutput').innerHTML = userInput;
     alert('Alexander: ' + userInput);
